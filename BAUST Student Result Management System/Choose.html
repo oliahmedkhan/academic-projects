@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BAUST Result</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 100px;
+        background-color: #f5f5f5;
+      }
+
+      .TextOption {
+        margin-top: 150px;
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+
+      .box {
+        width: 210px;
+        height: 5px;
+        background-color: #007bff;
+        margin: 0 auto 30px;
+      }
+
+      a.Student_btn,
+      a.Teacher_btn,
+      a.Administrator_btn {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        font-size: 18px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+
+      a.Student_btn:hover,
+      a.Teacher_btn:hover,
+      a.Administrator_btn:hover {
+        background-color: #941545;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p class="TextOption"><b>Choose your option</b></p>
+    <div class="box"></div>
+
+    <div>
+      <a href="Student.php" class="Student_btn">Student</a>
+      <a href="Teacher_login.php" class="Teacher_btn">Teacher</a>
+      <a href="Abministrator_login.php" class="Administrator_btn"
+        >Administrator</a
+      >
+    </div>
+  </body>
+</html>
